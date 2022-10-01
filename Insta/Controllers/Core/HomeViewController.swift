@@ -11,7 +11,8 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        title = "Insta"
+        view.backgroundColor = .systemBackground
         // Do any additional setup after loading the view.
     }
 

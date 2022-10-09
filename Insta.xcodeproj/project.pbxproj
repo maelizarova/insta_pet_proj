@@ -37,6 +37,9 @@
 		4CA591AB28E387E500865AC8 /* InstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA591AA28E387E500865AC8 /* InstaTests.swift */; };
 		4CA591B528E387E500865AC8 /* InstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA591B428E387E500865AC8 /* InstaUITests.swift */; };
 		4CA591B728E387E500865AC8 /* InstaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA591B628E387E500865AC8 /* InstaUITestsLaunchTests.swift */; };
+		4CC97B0528EB8C420031A154 /* SignInHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC97B0428EB8C420031A154 /* SignInHeaderView.swift */; };
+		4CC97B0728EDE2BB0031A154 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC97B0628EDE2BB0031A154 /* Extensions.swift */; };
+		4CC97B0928EDF8F10031A154 /* IGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC97B0828EDF8F10031A154 /* IGTextField.swift */; };
 		C4151320F7902ECAEF956D22 /* Pods_Insta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7E10A0D13E84D95F64208 /* Pods_Insta.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +96,9 @@
 		4CA591B028E387E500865AC8 /* InstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA591B428E387E500865AC8 /* InstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaUITests.swift; sourceTree = "<group>"; };
 		4CA591B628E387E500865AC8 /* InstaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CC97B0428EB8C420031A154 /* SignInHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHeaderView.swift; sourceTree = "<group>"; };
+		4CC97B0628EDE2BB0031A154 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4CC97B0828EDF8F10031A154 /* IGTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextField.swift; sourceTree = "<group>"; };
 		8AE78353827E44D78F090ECB /* Pods-Insta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta.debug.xcconfig"; path = "Target Support Files/Pods-Insta/Pods-Insta.debug.xcconfig"; sourceTree = "<group>"; };
 		E5C7E10A0D13E84D95F64208 /* Pods_Insta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				4CA5919E28E387E500865AC8 /* LaunchScreen.storyboard */,
+				4CC97B0428EB8C420031A154 /* SignInHeaderView.swift */,
+				4CC97B0828EDF8F10031A154 /* IGTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,9 +181,11 @@
 		4C19982928E3A07B001CD576 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				4C19985428E63197001CD576 /* GoogleService-Info.plist */,
 				4CA5919C28E387E500865AC8 /* Assets.xcassets */,
 				4CA5919028E387E300865AC8 /* AppDelegate.swift */,
 				4CA5919228E387E300865AC8 /* SceneDelegate.swift */,
+				4CC97B0628EDE2BB0031A154 /* Extensions.swift */,
 			);
 			path = Resourses;
 			sourceTree = "<group>";
@@ -238,7 +248,6 @@
 				4C19982528E39FAE001CD576 /* Views */,
 				4C19982428E39F28001CD576 /* Controllers */,
 				4CA591A128E387E500865AC8 /* Info.plist */,
-				4C19985428E63197001CD576 /* GoogleService-Info.plist */,
 				4CA5919928E387E300865AC8 /* Insta.xcdatamodeld */,
 			);
 			path = Insta;
@@ -473,10 +482,13 @@
 				4C19983B28E620AE001CD576 /* CaptionViewController.swift in Sources */,
 				4C19983728E62057001CD576 /* SignInViewController.swift in Sources */,
 				4C19983028E61F45001CD576 /* NotificationsViewController.swift in Sources */,
+				4CC97B0928EDF8F10031A154 /* IGTextField.swift in Sources */,
 				4C19983228E61F60001CD576 /* ProfileViewController.swift in Sources */,
+				4CC97B0728EDE2BB0031A154 /* Extensions.swift in Sources */,
 				4C19983D28E620BF001CD576 /* ListViewController.swift in Sources */,
 				4C19982E28E61F27001CD576 /* CameraViewController.swift in Sources */,
 				4C19984D28E62186001CD576 /* DatabaseManager.swift in Sources */,
+				4CC97B0528EB8C420031A154 /* SignInHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,7 +20,6 @@ final class AuthManager {
     }
     
     public var isSignIn: Bool {
-        try! auth.signOut()
         return auth.currentUser != nil
     }
     
@@ -67,6 +66,13 @@ final class AuthManager {
     }
     
     public func signOut(completion: @escaping (Bool) -> Void) {
- 
+        do {
+            try auth.signOut()
+            completion(true)
+        }
+        catch {
+            print(error)
+            completion(false)
+        }
     }
 }
